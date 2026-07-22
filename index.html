@@ -225,6 +225,7 @@ footer{background:#fff;border-top:1px solid var(--border);padding:36px 0;}
 footer small{color:var(--muted);font-size:13px;}
 footer small a{color:var(--teal);font-weight:700;text-decoration:none;}
 footer small a:hover{text-decoration:underline;}
+.foot-disclaimer{margin-top:18px;font-size:11px;line-height:1.7;color:var(--muted);opacity:.85;}
 
 /* ===== Responsive ===== */
 @media(max-width:860px){
@@ -382,6 +383,8 @@ footer small a:hover{text-decoration:underline;}
       <p>ダウンロード・実行時に「WindowsによってPCが保護されました」という画面（SmartScreen）が表示されることがあります。その場合は「詳細情報」→「実行」の順にクリックしてください。</p>
       <p>本アプリには患者情報などの個人情報を入力しないでください。医師名・当番日程のみを扱う前提で設計されています。個人情報を含む運用が必要な場合は、アクセスログを管理できる院内システムをご利用ください。</p>
       <p>データは端末内のみに保存されます。端末の故障に備え、データファイル（data.json）の定期的なバックアップをおすすめします。</p>
+      <p>本アプリが作成する当直表は、割り当て作業を補助するための<strong>たたき台</strong>です。労働基準法上の宿日直許可の要件、医師の時間外労働の上限規制（A・B・C水準）、就業規則や労使協定など、法令および各施設の定めへの適合を保証するものではありません。そのまま勤務指定として運用せず、必ず各施設の労務管理責任者が内容を確認・承認したうえでご使用ください。</p>
+      <p>本アプリは個人が開発した無償のソフトウェアです。動作保証および継続的な保守・サポートは行いません。本アプリの使用または使用不能によって生じたいかなる損害についても、開発者および配布者は一切の責任を負いません。導入・運用は利用者ご自身の判断と責任において行ってください。</p>
     </div>
   </div>
 </section>
@@ -392,8 +395,8 @@ footer small a:hover{text-decoration:underline;}
     <img src="assets/app_icon.png" alt="">
     <h2>当直表づくりを、もっと身軽に。</h2>
     <p>登録不要・無料。今すぐ使いはじめられます。</p>
-    <a class="btn btn-primary" href="https://github.com/minna-shienshitsu/tochoku-shienshitsu-lp/releases/download/v0.1.0/tochokuhyo-app-setup-0.1.0.exe">⬇ アプリをダウンロード（Windows）</a>
-    <p class="hero-note" style="margin-top:18px;">バージョン v0.1.0（2026-07-19）　｜　ダウンロード後、exeファイルを実行するとインストールされます。</p>
+    <a class="btn btn-primary" href="https://github.com/minna-shienshitsu/tochoku-shienshitsu-lp/releases/download/v0.1.1/tochokuhyo-app-setup-0.1.1.exe">⬇ アプリをダウンロード（Windows）</a>
+    <p class="hero-note" style="margin-top:18px;">バージョン v0.1.1（2026-07-21）　｜　ダウンロード後、exeファイルを実行するとインストールされます。</p>
   </div>
 </section>
 
@@ -402,6 +405,9 @@ footer small a:hover{text-decoration:underline;}
   <div class="wrap foot-inner">
     <span class="brand-wordmark">みんなの当直支援室</span>
     <small>運営：<a href="https://minna-shienshitsu-hub.vercel.app/" target="_blank" rel="noopener">みんなの支援室</a>　｜　姉妹サイト：<a href="https://kenkyu-shienshitsu-lp.vercel.app/" target="_blank" rel="noopener">みんなの研究支援室（業績管理アプリ）</a>　｜　© 2026 みんなの当直支援室 — 当直表づくりを、もっと身軽に。</small>
+  </div>
+  <div class="wrap">
+    <p class="foot-disclaimer">本アプリが作成する当直表は割り当て作業を補助するためのものであり、宿日直許可の要件や医師の時間外労働の上限規制など、法令および各施設の定めへの適合を保証するものではありません。運用にあたっては各施設の労務管理責任者による確認をお願いします。本アプリは無償で提供され、使用により生じたいかなる損害についても開発者・配布者は責任を負いません。</p>
   </div>
 </footer>
 
